@@ -1,0 +1,1 @@
+[![Статус сборки](https://ci.appveyor.com/api/projects/status/k49o8vcmsufsl5p3?svg=true)](https://ci.appveyor.com/project/sonic335/aplci)
