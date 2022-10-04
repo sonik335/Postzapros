@@ -2,6 +2,7 @@ package ru.netology.rest;
 
 
 import org.junit.jupiter.api.Test;
+
 import static org.hamcrest.Matchers.equalTo;
 
 import static io.restassured.RestAssured.given;
@@ -18,10 +19,9 @@ public class MobileBankApiTestV1 {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data",equalTo("some data"));
+                .body("data", equalTo("some data"));
 
     }
-
 
 
 }
